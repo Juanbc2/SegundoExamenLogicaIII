@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Ventana">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="764" height="331"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="cc389" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="ÁRBOL BINARIO ENHEBRADO EN POSTORDEN"/>
+        </properties>
+      </component>
+      <component id="92b75" class="javax.swing.JTextPane" binding="resultados">
+        <constraints/>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="864fc" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="4"/>
+        </properties>
+      </component>
+      <component id="bd2f5" class="javax.swing.JLabel" binding="Label">
+        <constraints/>
+        <properties>
+          <text value="Ingrese el siguiente nodo"/>
+        </properties>
+      </component>
+      <component id="de095" class="javax.swing.JButton" binding="insertarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Insertar"/>
+        </properties>
+      </component>
+      <component id="c6041" class="javax.swing.JButton" binding="enhebrarPosordenButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Enhebrar posorden"/>
+        </properties>
+      </component>
+      <component id="90841" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
